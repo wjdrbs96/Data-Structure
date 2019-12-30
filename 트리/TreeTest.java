@@ -1,41 +1,24 @@
 package Data_Structure;
-//자바로 트리 구현하기
-class TreeNode{
-    Object data;
-    TreeNode left;
-    TreeNode right;
 
-    public TreeNode(Object data){
-        this.data = data;
-        this.left = null;  // 이 부분이 조금 이해가 안되네
-        this.right = null;
-    }
-
-    public void makeLeftSubTree(TreeNode sub){
-        if(left != null){
-            this.left = null;
-        }
-        this.left = sub;
-    }
-
-    public void makeRightSubTree(TreeNode sub){
-        if(right != null){
-            this.right = null;
-        }
-        this.right = sub;
-    }
-}
 public class TreeTest {
     public static void main(String[] args){
-        TreeNode root = new TreeNode(1);
-        TreeNode n1 = new TreeNode(2);
-        TreeNode n2 = new TreeNode(3);
-        TreeNode n3 = new TreeNode(4);
+        LinkedTree tree = new LinkedTree();
 
-        root.makeLeftSubTree(n1);
-        root.makeRightSubTree(n2);
-        n2.makeLeftSubTree(n3);
+        TreeNode n7 = tree.makeBT(null,'D',null);
+        TreeNode n6 = tree.makeBT(null,'C',null);
+        TreeNode n5 = tree.makeBT(null,'B',null);
+        TreeNode n4 = tree.makeBT(null,'A',null);
+        TreeNode n3 = tree.makeBT(n6,'/',n7);
+        TreeNode n2 = tree.makeBT(n4,'*',n5);
+        TreeNode n1 = tree.makeBT(n2,'-',n3);
 
-
+        System.out.println("preorder");
+        tree.preorder(n1);
+        System.out.println();
+        System.out.println("inroder");
+        tree.inorder(n1);
+        System.out.println();
+        System.out.println("postorder");
+        tree.postorder(n1);
     }
 }
