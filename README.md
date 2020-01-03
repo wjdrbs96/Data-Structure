@@ -14,7 +14,7 @@
   <br>
   <li>우선순위 큐(Priority Queue)</li>
     <ul>
-      </li>힙(heap)</li>
+      <li>힙(heap)</li>
     </ul>
     <br>
   <li>그래프(Graph)</li>
