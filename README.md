@@ -4,20 +4,25 @@
   <li>스택(Stack)</li>
   <li>큐(Queue)</li>
   <li>연결리스트(Linked list)</li>
+  <br>
   <li>트리(Tree)</li>
     <ul>
       <li>이진트리</li>
       <li>이진트리 순회</li>
       <li>이진탐색 트리</li>
     </ul>
+  <br>
   <li>우선순위 큐(Priority Queue)</li>
-    <ul></li>힙(heap)</li></ul>
+    <ul>
+      </li>힙(heap)</li>
+    </ul>
+    <br>
   <li>그래프(Graph)</li>
     <ul>
       <li>깊이 우선 탐색(DFS)</li>
       <li>너비 우선 탐색(BFS)</li>
     </ul>
-    
+    <br>
   <li>정렬(Sort)</li>
     <ul>
       <li>선택정렬(Selection sort)</li>
@@ -27,7 +32,7 @@
       <li>퀵정렬(Quick sort)</li>
       <li>기수정렬(Radix sort)</li>
       <li>힙정렬(Heap sort)</li>
-    </ul>
+    </ul><br>
   <li>탐색</li>
   <li>해싱</li>
 </ul>
