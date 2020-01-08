@@ -25,8 +25,8 @@
     <li>그래프2(Graph)</li>
     <ul>
       <li>최소 비용 신장 트리</li>
-      <li><Kruskal의 MST 알고리즘</li>
-      <li><Dijkstra의 최단 경로 알고리즘</li>
+      <li>Kruskal의 MST 알고리즘</li>
+      <li>Dijkstra의 최단 경로 알고리즘</li>
     </ul>
     <br>
   <li>정렬(Sort)</li>
