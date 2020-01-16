@@ -22,6 +22,7 @@
       <li>깊이 우선 탐색(DFS)</li>
       <li>너비 우선 탐색(BFS)</li>
     </ul>
+  <br>
     <li>그래프2(Graph)</li>
     <ul>
       <li>최소 비용 신장 트리</li>
