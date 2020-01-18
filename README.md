@@ -1,5 +1,7 @@
-<h1> Data Structure with Java, Python</h1>
+<h1> Data Structure</h1>
 
+<br>
+<h3>Data Structrue Studying with Java</h3>
 
 <ul>
   <li>스택(Stack)</li>
