@@ -1,7 +1,7 @@
 <h1> Data Structure</h1>
 
-<br>
 <h3>Data Structrue Studying with Java</h3>
+<br>
 
 <ul>
   <li>스택(Stack)</li>
