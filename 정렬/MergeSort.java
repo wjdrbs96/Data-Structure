@@ -21,7 +21,7 @@ public class MergeSort {
         }
         else{
             for(l=i; l<=mid; l++){
-                sorted[k++] = list[i];
+                sorted[k++] = list[l];
             }
         }
 
