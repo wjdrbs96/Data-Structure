@@ -19,7 +19,14 @@
 <h3> Tree </h3>
 
 <ul>
-  <li><a href="">Tree traversal </a></li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/Tree%20traversal">Tree traversal </a></li>
   <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/BST">Binary search Tree</a></li>
   
+</ul>
 
+<h3> Priority Queue </h3>
+
+<ul>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Heap">MaxHeap</a></li>
+</ul>
+    
