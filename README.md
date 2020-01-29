@@ -2,9 +2,8 @@
 
 <h3> Sort </h3>
 <ul>
-  <li>Merge sort</li>
-  <li>Quick sort</li>
-  <li>insertion sort</li>
-  <li>Bubble sort</li>
-  <li>Selection sort</li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/MergeSort.java">Merge sort</a></li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/QuickSort.java">Quick sort</a></li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/insertionSort.java">insertion sort</a></li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/SelectionSort.java">Selection sort</a></li>
 </ul>
