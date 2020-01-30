@@ -39,7 +39,7 @@
 <h3> Search </h3>
 
 <ul>
-  <li> Sequetial search </li>
-  <li> Binay Search </li>
+  <li> Sequential search </li>
+  <li> Binay search </li>
 </ul>
     
