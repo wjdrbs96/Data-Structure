@@ -35,4 +35,11 @@
 <ul>
   <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Heap">MaxHeap</a></li>
 </ul>
+
+<h3> Search </h3>
+
+<ul>
+  <li> Sequetial search </li>
+  <li> Binay Search </li>
+</ul>
     
