@@ -39,7 +39,6 @@
 <h3> Search </h3>
 
 <ul>
-  <li> Sequential search </li>
-  <li> Binay search </li>
+  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%ED%83%90%EC%83%89/Binary_Search/BinarySearch.java"> Binay search </a></li>
 </ul>
     
