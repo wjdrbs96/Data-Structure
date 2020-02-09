@@ -1,6 +1,8 @@
 # 📕 Data Structure
 
+### Stack 
 
+* [Stack]()
 
 ### Sort 
 
