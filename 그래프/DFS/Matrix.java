@@ -1,4 +1,4 @@
-package Data_Structure.DFS;
+package Data_Structure.그래프.DFS;
 
 public class Matrix {
     boolean visited[];  //노드를 방문할 때 true, false 담을 곳

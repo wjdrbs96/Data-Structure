@@ -1,4 +1,4 @@
-package Data_Structure.BST;
+package Data_Structure.트리.BST;
 
 public class TreeNode {
     TreeNode left;

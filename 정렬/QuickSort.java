@@ -1,4 +1,4 @@
-package Algorithm;
+package Data_Structure.정렬;
 
 public class QuickSort {
     static int partition(int[] list, int left, int right){

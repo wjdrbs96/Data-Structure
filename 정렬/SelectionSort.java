@@ -1,4 +1,4 @@
-package Algorithm;
+package Data_Structure.정렬;
 
 public class SelectionSort {
     public static void main(String[] args){

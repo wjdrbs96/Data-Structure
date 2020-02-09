@@ -1,4 +1,4 @@
-package Data_Structure;
+package Data_Structure.트리.Tree_traversal;
 
 public class LinkedTree {
     private TreeNode root;

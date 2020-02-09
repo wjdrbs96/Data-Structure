@@ -1,4 +1,4 @@
-package Data_Structure;
+package Data_Structure.그래프.BFS;
 
 import java.util.*;
 

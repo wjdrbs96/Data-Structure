@@ -1,4 +1,4 @@
-package Data_Structure.BFS;
+package Data_Structure.그래프.BFS;
 
 public class Test {
     public static void main(String[] args){

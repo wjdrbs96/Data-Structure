@@ -1,4 +1,4 @@
-package Algorithm;
+package Data_Structure.정렬;
 
 public class MergeSort {
     static int[] sorted = new int[8];

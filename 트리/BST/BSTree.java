@@ -1,4 +1,4 @@
-package Data_Structure.BST;
+package Data_Structure.트리.BST;
 
 public class BSTree {
     TreeNode root = null; //일단 깡통 몸체를 구현함

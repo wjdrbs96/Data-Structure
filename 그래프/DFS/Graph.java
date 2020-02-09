@@ -1,4 +1,4 @@
-package Data_Structure.DFS;
+package Data_Structure.그래프.DFS;
 
 import java.util.LinkedList;
 

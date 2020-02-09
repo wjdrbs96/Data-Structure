@@ -1,4 +1,4 @@
-package Data_Structure.Heap;
+package Data_Structure.우선순위큐.Heap;
 
 public class Test {
     public static void main(String[] args){

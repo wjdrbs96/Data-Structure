@@ -1,4 +1,4 @@
-package Data_Structure;
+package Data_Structure.트리.Tree_traversal;
 
 public class TreeTest {
     public static void main(String[] args){
