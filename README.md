@@ -1,44 +1,27 @@
-<h1> 📕 Data Structure</h1>
+# 📕 Data Structure
 
-<h3> Linked List </h3>
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8">Circular Linked List</a></li>
-</ul>
 
-<h3> Sort </h3>
+### Sort 
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/MergeSort.java">Merge sort</a></li>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/QuickSort.java">Quick sort</a></li>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/insertionSort.java">insertion sort</a></li>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/SelectionSort.java">Selection sort</a></li>
-</ul>
+* [Merge sort](https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/MergeSort.java)
+* [Quick sort](https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/QuickSort.java)
+* [insertion sort](https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/insertionSort.java)
+* [Selection sort](https://github.com/wjdrbs96/Data-Structure/blob/master/%EC%A0%95%EB%A0%AC/SelectionSort.java)
 
-<h3> Graph </h3>
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EA%B7%B8%EB%9E%98%ED%94%84/BFS">BFS</a></li>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EA%B7%B8%EB%9E%98%ED%94%84/DFS">DFS</a></li>
-</ul>
+### Graph 
 
-<h3> Tree </h3>
+* [BFS](href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EA%B7%B8%EB%9E%98%ED%94%84/BFS)
+* [DFS](https://github.com/wjdrbs96/Data-Structure/tree/master/%EA%B7%B8%EB%9E%98%ED%94%84/DFS)
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/Tree%20traversal">Tree traversal </a></li>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/BST">Binary search Tree</a></li>
-  
-</ul>
 
-<h3> Priority Queue </h3>
+### Tree 
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/tree/master/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Heap">MaxHeap</a></li>
-</ul>
+* [Tree traversal](https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/Tree%20traversal)
+* [Binary Search Tree](https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/BST)
 
-<h3> Search </h3>
+### Priority Queue 
 
-<ul>
-  <li><a href="https://github.com/wjdrbs96/Data-Structure/blob/master/%ED%83%90%EC%83%89/Binary_Search/BinarySearch.java"> Binay search </a></li>
-</ul>
-    
+* [MaxHeap](https://github.com/wjdrbs96/Data-Structure/tree/master/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%ED%81%90/Heap)
+
