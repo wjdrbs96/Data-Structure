@@ -4,7 +4,9 @@
 
 ### Recursive 
 
-* [Factorial]()
+* [Factorial](https://github.com/wjdrbs96/Data_Structure/tree/master/%EC%88%9C%ED%99%98)
+
+* [RecursiveSum]()
 
 ### Stack 
 
