@@ -2,6 +2,10 @@
 
     📄자바를 이용해서 자료구조를 공부합니다
 
+### Recursive 
+
+* [Factorial]()
+
 ### Stack 
 
 * [Stack](https://github.com/wjdrbs96/Data_Structure/blob/master/%EC%8A%A4%ED%83%9D/StackTest.java)
