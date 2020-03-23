@@ -30,7 +30,7 @@
 
 ### Tree 
 
-* [Tree traversal](https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/Tree%20traversal)
+* [Tree traversal](https://github.com/wjdrbs96/Data_Structure/tree/master/%ED%8A%B8%EB%A6%AC/Tree_traversal)
 * [Binary Search Tree](https://github.com/wjdrbs96/Data-Structure/tree/master/%ED%8A%B8%EB%A6%AC/BST)
 
 ### Priority Queue 
