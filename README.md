@@ -6,7 +6,7 @@
 
 * [Factorial](https://github.com/wjdrbs96/Data_Structure/tree/master/%EC%88%9C%ED%99%98)
 
-* [RecursiveSum]()
+* [RecursiveSum](https://github.com/wjdrbs96/Data_Structure/blob/master/%EC%88%9C%ED%99%98/RecursiveSum.java)
 
 ### Stack 
 
