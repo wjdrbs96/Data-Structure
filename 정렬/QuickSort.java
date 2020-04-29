@@ -32,10 +32,10 @@ public class QuickSort {
     }
 
     public static void main(String[] args){
-        int[] list = {5,3,8,4,9,1,6,2,7};
-        quick_sort(list,0,list.length-1);
+        int[] list = {5, 3, 8, 4, 9, 1, 6, 2, 7};
+        quick_sort(list,0,list.length - 1);
 
-        for(int i=0; i<list.length; i++){
+        for(int i = 0; i < list.length; i++){
             System.out.print(list[i] + " ");
         }
 
