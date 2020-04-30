@@ -13,11 +13,11 @@ public class MainCode {
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line = "";
 
-        Movie[] m = new Movie[5];
+        Movie[] m = new Movie[19];
 
         int i = 0;
         while ((line = bufferedReader.readLine()) != null) {
-            String[] sp = line.split(" ");
+            String[] sp = line.split("\t");
             m[i] = new Movie(sp[0], Integer.parseInt(sp[1]));
             i++;
         }
