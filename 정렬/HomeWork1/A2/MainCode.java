@@ -16,8 +16,8 @@ public class MainCode {
         Movie[] m = new Movie[19];
 
         int i = 0;
-        while ((line = bufferedReader.readLine()) != null) {
-            String[] sp = line.split("\t");
+        while ((line = bufferedReader.readLine()) != null) {              // 파일 한줄 씩 읽어오기
+            String[] sp = line.split("\t");                        // \t을 기준으로 문자열 분리
             m[i] = new Movie(sp[0], Integer.parseInt(sp[1]));
             i++;
         }
