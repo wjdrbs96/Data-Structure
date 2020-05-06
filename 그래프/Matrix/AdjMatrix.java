@@ -1,4 +1,4 @@
-package Data_Structure.Graph;
+package Data_Structure.그래프.Matrix;
 
 public class AdjMatrix {
     int matrix[][];
