@@ -8,17 +8,17 @@ public class GraphMatrix {
     int V;  //정점의 수
     int adj[][];
 
-    public GraphMatrix(int v){
+    public GraphMatrix(int v) {
         V = v;
         visited = new boolean[V];
         adj = new int[V][V];
     }
 
-    void addEdge(int v1, int v2){
-        if(v1 > V || v2 > V){
+    void addEdge(int v1, int v2) {
+        if (v1 > V || v2 > V) {
             System.out.println("잘못 됐습니다");
         }
-        else{
+        else {
             adj[v1][v2] = 1;
         }
     }
@@ -28,10 +28,10 @@ public class GraphMatrix {
         q.offer(v);
         visited[v] = true;
         System.out.print(v + " ");
-        while(!q.isEmpty()){
+        while (!q.isEmpty()) {
             v = q.poll();
-            for(int w=0; w<V; w++){
-                if(adj[v][w] ==1 && !visited[w]){
+            for (int w = 0; w < V; w++){
+                if (adj[v][w] == 1 && !visited[w]) {
                     visited[w] = true;
                     System.out.print(w + " ");
                     q.offer(w);

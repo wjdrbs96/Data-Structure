@@ -24,7 +24,6 @@ public class MainCode {
 
         InsertionSort.sort(m);
 
-
         for (Movie m1 : m) {
             System.out.println(m1.toString());
         }
