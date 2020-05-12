@@ -15,25 +15,20 @@ public class BST<K extends Comparable<K>, V> {
 
     private Node root;
 
-    public BST() {
-
+    public void insert(K k, V v) {
+        root = insert(root, k, v);
+        System.out.println("root : " + root.key);
     }
 
-    private Node search(Node node, K k) {
-        if (node == null) return null;
+    private Node insert(Node node, K k, V v) {
+        if (node == null)
+            return new Node(k, v);
+
         int cmp = k.compareTo(node.key);
-
-        if (cmp < 0) {
-            return search(node.left, k);
-        }
-        else if (cmp > 0) {
-            return search(node.right, k);
-        }
-        else {
-            return node;
-        }
+        if (cmp < 0) node.left = insert(node.left, k, v);
+        else if (cmp > 0) node.right = insert(node.right, k, v);
+        else node.val = v;
+        System.out.println(node.key + " node");
+        return node;
     }
-
-
-
 }
