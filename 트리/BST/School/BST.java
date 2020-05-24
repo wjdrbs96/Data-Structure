@@ -1,6 +1,6 @@
 package Data_Structure.트리.BST.School;
 
-public class BST<K extends Comparable<K>, V> {
+public class BST <K extends Comparable<K>, V> {
 
     private class Node {
         private K key;
