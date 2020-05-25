@@ -163,8 +163,10 @@ public class RedBlackTree {
         }
 
         // 트리 전부 출력
-        //t.printTree();
-        t.maximum_depth(t.header);
+        t.printTree();
+
+        // 트리 깊이 출력
+        //t.maximum_depth(t.header);
     }
 }
 
