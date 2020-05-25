@@ -104,6 +104,15 @@ public class RedBlackTree {
         return k2;
     }
 
+    public int maximum_depth(RedBlackNode root) {
+        if (root == null) return 0;                   // node가 null이면 0을 리턴
+        int left_depth = maximum_depth(root.left);
+        int right_depth = maximum_depth(root.right);
+
+        return Math.max(left_depth, right_depth) + 1;	// 해당 node가 root인 subtree의 depth를 리턴
+    }
+
+
     private static class RedBlackNode {
 
         RedBlackNode( Comparable theElement ) {
@@ -139,7 +148,7 @@ public class RedBlackTree {
     private static RedBlackNode great;
 
 
-    public static void main( String [ ] args ) throws IOException {
+    public static void main( String[] args ) throws IOException {
         RedBlackTree t = new RedBlackTree( );
 
         File file = new File("C:\\Java\\src\\Data_Structure\\트리\\BST\\School\\탐색과제\\B\\CARRIERS.txt");
@@ -154,7 +163,8 @@ public class RedBlackTree {
         }
 
         // 트리 전부 출력
-        t.printTree();
+        //t.printTree();
+        t.maximum_depth(t.header);
     }
 }
 
