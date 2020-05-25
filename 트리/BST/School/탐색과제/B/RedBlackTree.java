@@ -112,6 +112,21 @@ public class RedBlackTree {
         return Math.max(left_depth, right_depth) + 1;	// 해당 node가 root인 subtree의 depth를 리턴
     }
 
+    public Comparable find( Comparable x ) {
+        nullNode.element = x;
+        current = header.right;
+
+        for( ; ; ) {
+            if( x.compareTo( current.element ) < 0 )
+                current = current.left;
+            else if( x.compareTo( current.element ) > 0 )
+                current = current.right;
+            else if( current != nullNode )
+                return current.element;
+            else
+                return null;
+        }
+    }
 
     private static class RedBlackNode {
 
@@ -161,6 +176,18 @@ public class RedBlackTree {
             String[] sp = line.split("\t");                        // \t을 기준으로 문자열 분리
             t.insert(sp[0]);
         }
+
+        // 5개 항공사 검색
+
+        String[] list = {"XPA", "Y2", "ZE", "TRA", "SOE"};
+
+        System.out.println("5개 항공사를 검색합니다");
+        for (int i = 0; i < list.length; ++i) {
+            // 검색 결과가 맞으면 매게변수로 넣은 값과 동일 한 값이 찍힘
+            System.out.println(list[i] + " : " + t.find(list[i]));
+        }
+
+        System.out.println("=======================");
 
         // 트리 전부 출력
         t.printTree();
