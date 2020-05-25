@@ -52,7 +52,7 @@ public class RedBlackTree {
         printTree( header.right );
     }
 
-
+    // 트리 전부를 출력하는 메소드
     private void printTree( RedBlackNode t ) {
         if( t != nullNode ) {
             printTree( t.left );
@@ -104,6 +104,7 @@ public class RedBlackTree {
         return k2;
     }
 
+    // 깊이를 출력하는 메소드
     public int maximum_depth(RedBlackNode root) {
         if (root == null) return 0;                   // node가 null이면 0을 리턴
         int left_depth = maximum_depth(root.left);
@@ -112,6 +113,7 @@ public class RedBlackTree {
         return Math.max(left_depth, right_depth) + 1;	// 해당 node가 root인 subtree의 depth를 리턴
     }
 
+    // 검색하는 메소드
     public Comparable find( Comparable x ) {
         nullNode.element = x;
         current = header.right;
