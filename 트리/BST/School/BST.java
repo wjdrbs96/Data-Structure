@@ -17,7 +17,6 @@ public class BST <K extends Comparable<K>, V> {
 
     public void insert(K k, V v) {
         root = insert(root, k, v);
-        System.out.println("root : " + root.key);
     }
 
     private Node insert(Node node, K k, V v) {
@@ -32,4 +31,45 @@ public class BST <K extends Comparable<K>, V> {
         return node;
     }
 
+    private Node search(Node node, K k) {
+        if (node == null) return null;
+        int cmp = k.compareTo(node.key);
+        if (cmp < 0) return search(node.left, k);
+        else if (cmp > 0) return search(node.right, k);
+        return node;
+    }
+
+    public Node search(K k) {
+        return search(root, k);
+    }
+
+    private void inorder(Node node) {
+        if (node == null) return;
+        inorder(node.left);
+        System.out.print(node.key + " ");
+        inorder(node.right);
+    }
+
+    public void inorder() {
+        System.out.print("in-order : ");
+        inorder(root);
+        System.out.println("");
+    }
+
+    private int height(Node node) {
+        if (node == null) return -1;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    public int height() {
+        return height(root);
+    }
+
+    public K getRooKey() {
+        return root.key;
+    }
+
+    public V getValue(Node node) {
+        return node.val;
+    }
 }
